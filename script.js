@@ -74,12 +74,12 @@ class Movie {
         this.color =color;
     }
     get toString(){
-        return `"Cricle[radius = ${this.radius}, color = ${this.color}]"`
+        return `"Circle[radius = ${this.radius}, color = ${this.color}]"`
     }
-    get areaCricle(){
+    get areaCircle(){
         return Math.PI * this.radius * this.radius;
     }
-    get circumferenceCricle(){
+    get circumferenceCircle(){
         return Math.PI * 2 * this.radius;
     }
 }
@@ -95,5 +95,5 @@ obj1.colorCircle = "blue";
 console.log(obj1.colorCircle);
 
 console.log(obj1.toString);
-console.log(obj1.areaCricle);
-console.log(obj1.circumferenceCricle);
+console.log(obj1.areaCircle);
+console.log(obj1.circumferenceCircle);
